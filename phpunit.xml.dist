@@ -1,0 +1,12 @@
+<phpunit bootstrap="vendor/autoload.php">
+
+    <testsuite name="Integration">
+        <directory>tests/integration</directory>
+    </testsuite>
+
+    <filter>
+        <whitelist>
+            <directory>src</directory>
+        </whitelist>
+    </filter>
+</phpunit>
